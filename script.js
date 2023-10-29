@@ -2,7 +2,7 @@
 const ul = document.createElement("ul");
 const body = document.querySelector("body");
 const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
-ul.setAttribute("id","band")
+ul.setAttribute("id","bands")
 const ignoredWords = /(a|an|the)\s+/i;
 
 bands.sort((a, b) => {
